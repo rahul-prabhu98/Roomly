@@ -75,6 +75,7 @@ public class Utils {
         }
         return roomDTO;
     }
+    
 
     public static BookingDTO mapBookingEntityToBookingDTOPlusBookedRooms(Booking booking, boolean mapUser) {
 
