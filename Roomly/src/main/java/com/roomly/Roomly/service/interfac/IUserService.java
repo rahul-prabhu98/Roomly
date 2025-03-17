@@ -1,6 +1,5 @@
 package com.roomly.Roomly.service.interfac;
 
-import com.roomly.Roomly.dto.LoginRequest;
 import com.roomly.Roomly.dto.Response;
 import com.roomly.Roomly.entity.User;
 
