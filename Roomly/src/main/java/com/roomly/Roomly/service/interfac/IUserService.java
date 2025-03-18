@@ -7,9 +7,9 @@ import com.roomly.Roomly.entity.User;
 public interface IUserService {
     Response register(User user);
 
-    Response login(LoginRequest loginRequest);
+ //   Response login(LoginRequest loginRequest);
 
-    Response login(LoginRequest loginRequest);
+   // Response login(LoginRequest loginRequest);
 
     Response getAllUsers();
 
