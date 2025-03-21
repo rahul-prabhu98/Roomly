@@ -27,3 +27,16 @@ This project is a Hotel Booking and Management Platform built using Spring Boot 
 - **Booking Entity**: Manages reservations with check-in/check-out dates, guest details, and confirmation codes.
 - **Authentication Layer**: Uses JWT for user authentication.
 - **Database Layer**: Uses Spring Data JPA to interact with MySQL.
+
+### API Endpoints
+1. **Authentication**-
+   - `POST /api/auth/register` - Register a new user
+   - `POST /api/auth/login` - Authenticate user and return JWT token
+2. **Rooms**-
+   - `POST /api/bookings` - Create a new booking
+   - `GET /api/bookings/{id}` - Fetch booking details
+   - `GET /api/bookings/user/{userId}` - Fetch all bookings for a user
+
+### License
+This project is licensed under the MIT License.
+
